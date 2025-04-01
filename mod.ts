@@ -1,5 +1,9 @@
 import zlib from 'zlib';
 
+/**
++  * This module contains decodeMonitorData to decode the monitor_data.
++  * @module
++  */
 const decodeMonitorData = (monitor_data: string): string | number [] => {
     console.log('解密雷达监测数据中，字节长度 :>> ', monitor_data.length);
 
